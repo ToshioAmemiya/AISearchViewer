@@ -1,0 +1,2 @@
+# AISearchViewer
+Excel検索リンクを自動生成するWindows向けデスクトップツール
