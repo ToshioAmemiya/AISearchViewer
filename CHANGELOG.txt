@@ -1,0 +1,28 @@
+AISearchViewer CHANGELOG
+========================
+
+[1.2] - 2025-12-19
+------------------
+- PyInstaller EXE化時のアイコン問題を改善
+  - AppUserModelID を明示的に設定
+  - タスクバー分離・起動中アイコン変化対策
+- PyInstaller 実行環境対応
+  - resource_path() により _MEIPASS 対応
+- 実行ファイル名を AISearchViewer1.2.exe に統一
+- ビルド用 batch ファイルを追加
+- 配布用 3点セット構成を整理
+  - AISearchViewer.py
+  - AISearchViewer.ico
+  - build_exe.bat
+
+[1.1]
+-----
+- AI検索 / Google検索リンク生成機能
+- Excel ファイルの閲覧・編集対応
+- 列単位の計算式適用機能
+- UI 操作性の改善
+
+[1.0]
+-----
+- 初期リリース
+- Excel ベース検索ビューアとして基本機能実装
